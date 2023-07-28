@@ -3,3 +3,8 @@ node_modules/
 # Ignore dependencies lock files
 yarn.lock
 package-lock.json
+# Ignore build output (where the transpiled and bundled code goes)
+build/
+dist/
+# Local Netlify folder
+.netlify
